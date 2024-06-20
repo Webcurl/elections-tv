@@ -1,0 +1,23 @@
+.gadgetGroup {
+  display: flex;
+}
+
+.gadget {
+  margin-right: 2rem;
+  border-radius: 10px;
+  background: var(--accent-color);
+  padding: 0.5rem 1rem;
+  border: thin #ccc solid;
+}
+
+.gadget h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  font-size: large;
+}
+
+.gadgetValue {
+  font-size: larger;
+  text-align: right;
+}

@@ -1,0 +1,18 @@
+.meeple {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin: 2px;
+  border: thin transparent solid;
+  color: transparent;
+}
+
+.vacantSeat {
+  text-shadow: #ccc 0px 0px 0px;
+}
+
+.vacantSeat:before {
+  color: #999;
+  content: "?";
+  position: absolute;
+}

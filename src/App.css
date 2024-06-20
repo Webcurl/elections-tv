@@ -1,0 +1,129 @@
+:root {
+  --header-color: #0b7d85;
+  --accent-color: #e6f3f5;
+  --container-padding: 1rem 2rem;
+}
+
+.text-right {
+  text-align: right;
+}
+
+body {
+  font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif
+}
+
+#root {
+  height: 100vh;
+}
+
+div.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px black solid;
+}
+
+tr.elected {
+  box-shadow: 0px 0px 10px 0px #999
+}
+
+td.elected {
+  line-height: 1rem;
+}
+
+th.elected, td.elected {
+  text-align: center;
+}
+
+td.turnout, th.turnout, td.votes, th.votes {
+  text-align: right;
+}
+
+td.swatch {
+  width: 30px;
+  padding: 0;
+}
+
+.contestSummary td.swatch {
+  width: 70px;
+}
+
+header.top {
+  background-color: var(--header-color);
+  padding: var(--container-padding);
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+header.top h2 {
+  font-size: 32px;
+}
+
+header.top img {
+  width: 192px; /* 2023 Increase size for new logo */
+  margin-right: 2em;
+}
+
+header.top .clock {
+  justify-self: flex-end;
+  margin-left: auto;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  border-style: solid none;
+  padding: 1rem 0.5rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+main {
+  padding: var(--container-padding);
+}
+
+footer {
+  justify-self: flex-end;
+  display: flex;
+  margin-top: auto;
+  padding: 1rem;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+}
+
+thead tr {
+  background-color: var(--accent-color);
+}
+
+tfoot td, tfoot tr {
+  border: none;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.composition-table-footer td{
+  font-weight: bold;
+}
+
+.composition-visuals > div {
+  padding: 0 1rem;
+}
